@@ -1,0 +1,17 @@
+# Binaries
+/bin/
+/cmd/pixqr/pixqr
+/examples/server/server
+*.exe
+*.test
+
+# Test and coverage output
+*.out
+coverage.*
+**/testdata/fuzz/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
